@@ -4,4 +4,5 @@ var y = 25;
 console.log(x * y);
 
 var msgs = require('./msgs.js');    // this is only loaded once. so any subsequent request return a cached version
-console.log(msgs());
+msg = new msgs();
+console.log(msg.first);
