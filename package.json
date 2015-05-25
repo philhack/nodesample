@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "express": "^4.12.4",
+    "jade": "^1.10.0",
     "underscore": "^1.8.3"
   }
 }
