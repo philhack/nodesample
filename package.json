@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "express": "^4.12.np4",
+    "http": "0.0.0",
     "underscore": "^1.8.3"
   }
 }
