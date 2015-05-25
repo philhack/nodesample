@@ -1,14 +1,14 @@
 {
-  "name": "FunWithNode",
-  "version": "0.0.0",
-  "description": "Learning Nodejs",
-  "main": "app.js",
+  "name": "TheBoard",
+  "version": "0.1.0",
+  "description": "Message board based on sticky notes",
+  "main": "server.js",
   "author": {
-    "name": "Phil",
-    "email": ""
+    "name": "Phil Hack",
+    "email": "phil@philhack.com"
   },
   "dependencies": {
-    "express": "^4.12.4",
+    "express": "^4.12.np4",
     "underscore": "^1.8.3"
   }
 }
