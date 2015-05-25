@@ -11,6 +11,9 @@ var controllers = require('./controllers');
 
 app.set('view engine', 'vash');
 
+// set the public static resource file
+app.use(express.static(__dirname + '/public'));
+
 
 // map the routes
 controllers.init(app);
