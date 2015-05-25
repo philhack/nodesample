@@ -1,3 +1,4 @@
-exports.first = 'this is the first message';
-exports.second = 'this is the 2nd message';
-exports.third = {name : 'philly'};
+// because this is a function, each time we execute this, that code inside the function is re-executed
+module.exports = function(){
+    return "this is a message";
+};
