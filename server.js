@@ -3,13 +3,14 @@ var express = require('express');
 var app = express();
 
 //app.set('view engine', 'jade');    // for using the Jade View Engine
-var ejsEngine = require('ejs-locals');
-app.engine('ejs', ejsEngine);   // support master pages
-app.set('view engine', 'ejs');  // ejs view engine
+//var ejsEngine = require('ejs-locals');
+//app.engine('ejs', ejsEngine);   // support master pages
+//app.set('view engine', 'ejs');  // ejs view engine
 
+app.set('view engine', 'vash');
 
 app.get('/', function (req, res) {
-    res.render('ejs/index', {title: 'Express + EJS'});
+    res.render('index', {title: 'Express + Vash'});
 });
 
 app.get('/api/users', function (req, res) {
